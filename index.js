@@ -55,7 +55,7 @@ async function startApp() {
   } catch (error) {
     console.error('Error:', error);
   } finally {
-    startApp(); // Start the app again after completing the selected action
+    startApp(); 
   }
 }
 
